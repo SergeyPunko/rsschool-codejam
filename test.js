@@ -4,7 +4,7 @@ const sumOfOther = require('./tasks/sumOfOther.js');
 
 describe('sumOfOtherTests:', () => {
   it('1', () => {
-    const test = sumOfOther([1, 3, 4, 1]);
+    const test = sumOfOther([2, 3, 4, 1]);
     assert.deepEqual(test, [8, 7, 6, 9]);
   });
 
